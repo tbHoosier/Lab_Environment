@@ -1,6 +1,6 @@
 ---
 - name: A sample playbook for the labs
-  hosts: test1.example.com
+  hosts: BL1_SERVER1
   tasks:
     - name: A simple task 
       win_service:
