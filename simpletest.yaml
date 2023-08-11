@@ -1,0 +1,8 @@
+---
+- name: A sample playbook for the labs
+  hosts: test1.example.com
+  tasks:
+    - name: A simple task 
+      win_service:
+        name: spooler
+        state: started
